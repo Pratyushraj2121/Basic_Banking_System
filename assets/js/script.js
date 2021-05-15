@@ -34,7 +34,7 @@ function sendMoney(){
       // transaction history 
 
       var createPTag = document.createElement("li");
-      var textNode = document.createTextNode(`₹${enterAmount} is sent to recepient with Email-id ${enterName}@gmail.com on ${Date()}.     : `);
+      var textNode = document.createTextNode(`₹${enterAmount} is sent to recepient with Email-id ${enterName}@gmail.com on ${Date()}..................: `);
 	  var textNode1 = document.createTextNode(`Available Balance:  ₹${myAccountBalance}`);
 	  createPTag.appendChild(textNode);
       createPTag.appendChild(textNode1);
